@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/17421576/allow-null-in-model-when-using-code-first
+https://www.youtube.com/watch?v=sh8egyJxNtM
+https://stackoverflow.com/questions/69071518/how-to-display-data-from-model-in-html-table-in-net-core-cshtml
+https://stackoverflow.com/questions/2965837/insert-statement-conflicted-with-the-foreign-key-constraint-sql-server
+https://stackoverflow.com/questions/16692647/why-when-i-insert-a-datetime-null-i-have-0001-01-01-in-sql-server

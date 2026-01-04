@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|c:\\users\\pc\\desktop\\inventorymaster.360\\inventorymaster360\\inventorymaster360\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|solutionrelative:inventorymaster360\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|c:\\users\\pc\\desktop\\inventorymaster.360\\inventorymaster360\\inventorymaster360\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|solutionrelative:inventorymaster360\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|c:\\users\\pc\\desktop\\inventorymaster.360\\inventorymaster360\\inventorymaster360\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|solutionrelative:inventorymaster360\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|c:\\users\\pc\\desktop\\inventorymaster.360\\inventorymaster360\\inventorymaster360\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|solutionrelative:inventorymaster360\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|c:\\users\\pc\\desktop\\inventorymaster.360\\inventorymaster360\\inventorymaster360\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|solutionrelative:inventorymaster360\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|c:\\users\\pc\\desktop\\inventorymaster.360\\inventorymaster360\\inventorymaster360\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BAD719-038B-4485-B0B4-2E7814DF5B73}|InventoryMaster360\\InventoryMaster360.csproj|solutionrelative:inventorymaster360\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "InventoryMaster360\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "InventoryMaster360\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T15:05:47.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "InventoryMaster360\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "InventoryMaster360\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T15:05:09.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "InventoryMaster360\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "InventoryMaster360\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-04T15:00:06.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "InventoryMaster360\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "InventoryMaster360\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAASwDEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T12:27:18.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "InventoryMaster360\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Models\\Product.cs",
+              "RelativeToolTip": "InventoryMaster360\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T12:19:19.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "InventoryMaster360\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "InventoryMaster360\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-04T12:17:23.083Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

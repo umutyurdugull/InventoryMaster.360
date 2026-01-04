@@ -1,0 +1,50 @@
+﻿@model InventoryMaster360.Models.Product
+
+<h2>Yeni Ürün Ekle</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+
+            <div class="mb-3">
+                <label>Name</label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+
+
+            <div class="mb-3">
+                <label>Category Id</label>
+                <input asp-for="CategoryId" class="form-control" type="number" />
+            </div>
+
+            <div class="mb-3">
+                <label>Buying Price</label>
+                <input asp-for="BuyingPrice" class="form-control" type="number" step="0.01" />
+            </div>
+
+            <div class="mb-3">
+                <label>Sales Price</label>
+                <input asp-for="SalesPrice" class="form-control" type="number" step="0.01" />
+            </div>
+
+            <div class="mb-3">
+                <label>Stock Quantity</label>
+                <input asp-for="StockQuantity" class="form-control" type="number" />
+            </div>
+
+            <div class="mb-3">
+                <label>Critic Stock Quantity</label>
+                <input asp-for="CriticStockQuantity" class="form-control" type="number" />
+            </div>
+
+            <div class="mb-3">
+                <label>Description</label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-success">Save</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>

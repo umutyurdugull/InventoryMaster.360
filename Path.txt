@@ -2,17 +2,17 @@
 SKU = Stok Kodu
 
 Gün-1
-1 - ASP.NET Core MVC N-Tier Architecture Folder Structure
-2 - EF Core Code First Connection String appsettings.json.
-3 - Product ve Category classlarını yaz. İlişkilerini (Product içinde CategoryId ve Category nesnesi) tanımla.
-4 - Veri tabanı bağlantısını kur.
++ 1 - ASP.NET Core MVC N-Tier Architecture Folder Structure
++ 2 - EF Core Code First Connection String appsettings.json.
++ 3 - Product ve Category classlarını yaz. İlişkilerini (Product içinde CategoryId ve Category nesnesi) tanımla.
++ 4 - Veri tabanı bağlantısını kur.
 
 
 Gün-2 
-1 - Generic Repository Pattern C# Example
-2 - ProductRepository sınıfı yaz. İçine GetAll, GetById, Add, Update, Delete metodlarını koy.
-3 - ASP.NET Core MVC Controller Dependency Injection
-4 - ProductController, verileri tablo olarak çek, create ekle. Validasyonsuz 
++ 1 - Generic Repository Pattern C# Example
++2 - ProductRepository sınıfı yaz. İçine GetAll, GetById, Add, Update, Delete metodlarını koy.
+++ 3 - ASP.NET Core MVC Controller Dependency Injection
++4 - ProductController, verileri tablo olarak çek, create ekle. Validasyonsuz 
 
 Gün-3
 1 - FluentValidation ASP.NET Core Setup.

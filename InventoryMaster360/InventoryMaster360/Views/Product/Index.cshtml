@@ -1,0 +1,50 @@
+﻿@model IEnumerable<InventoryMaster360.Models.Product>
+<div class="mb-3">
+    <a asp-action="Create" asp-controller="Product" class="btn btn-primary">
+        + Yeni Ürün Ekle
+    </a>
+</div>
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SKU</th>
+                <th>CategoryId</th>
+                <th>Description</th>
+                <th>BuyingPrice</th>
+                <th>SalesPrice</th>
+                <th>StockQuantity</th>
+                <th>CriticStockQuantity</th>
+                <th>Category</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.SKU</td>
+                    <td>@item.CategoryId</td>
+                    <td>@item.Description</td>
+                    <td>@item.BuyingPrice</td>
+                    <td>@item.SalesPrice</td>
+                    <td>@item.StockQuantity</td>
+                    <td>@item.CriticStockQuantity</td>
+
+                    <td>@item.CategoryId</td>
+
+                    <td>@item.StockQuantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning" role="alert">
+        There's no item added to database yet.
+    </div>
+}
