@@ -31,7 +31,7 @@ namespace InventoryMaster360.Controllers
             // "Samsung" -> "SAM"
 
             //calisiyor.
-            string shortname = productName.Length >= 3 ? productName.Substring(0, 3) : productName
+            string shortname = productName.Length >= 3 ? productName.Substring(0, 3) : productName;
             string ticks = DateTime.Now.Ticks.ToString();
             string uniquePart = ticks.Substring(ticks.Length - 8);
             string year = createtime.Year.ToString();
