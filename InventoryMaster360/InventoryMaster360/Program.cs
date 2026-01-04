@@ -7,7 +7,7 @@ using InventoryMaster360.Repositories;
 using Microsoft.AspNetCore.Components.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddFluentValidationAutoValidation();
+
 builder.Services.AddValidatorsFromAssemblyContaining<ProductValidator>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
