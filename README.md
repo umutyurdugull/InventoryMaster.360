@@ -1,6 +1,11 @@
 ## InventoryMaster 360
 A robust, N-Tier Architecture based Product Management System built with ASP.NET Core MVC. This project simulates a real-world back-office application, focusing on strict business logic, data integrity, and clean code principles.
 
+## 🚧 Work in Progress
+This project is NOT finished yet. There are still many features that have not been implemented.
+
+
+
 ## Overview
 InventoryMaster 360 is designed to manage product lifecycles with high precision. Unlike standard CRUD applications, this system enforces strict validation rules to prevent data corruption and logical errors (e.g., selling below cost). It utilizes advanced Entity Framework Core features like Global Query Filters for soft deletes and Interceptors for automatic auditing.
 
