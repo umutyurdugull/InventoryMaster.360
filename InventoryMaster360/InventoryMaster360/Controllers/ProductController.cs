@@ -2,6 +2,7 @@
 using InventoryMaster360.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Threading.Tasks;
 
 namespace InventoryMaster360.Controllers
@@ -41,16 +42,24 @@ namespace InventoryMaster360.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Product product)
         {
-            product.CreatedTime = DateTime.Now;
-            product.UpdatedTime = DateTime.Now;
-            
-            product.SKU = SKUGenerator(product.Name,product.CreatedTime);
+         ModelState.Remove("SKU"); 
+    
+         ModelState.Remove("Category");
 
-            await _productRepository.AddAsync(product);
-            await _productRepository.SaveAsync();
-            return RedirectToAction("Index");
+        if (!ModelState.IsValid)
+        {
+        
+             return View(product); 
+        }
 
+        product.CreatedTime = DateTime.Now;
+        product.UpdatedTime = DateTime.Now;
+    
+        product.SKU = SKUGenerator(product.Name, product.CreatedTime);
 
+        await _productRepository.AddAsync(product);
+        await _productRepository.SaveAsync();
+        return RedirectToAction("Index");
         }
 
         public async Task<IActionResult> Index()

@@ -6,41 +6,49 @@
 <div class="row">
     <div class="col-md-6">
         <form asp-action="Create" method="post">
+            
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="mb-3">
-                <label>Name</label>
+                <label asp-for="Name">Name</label>
                 <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
             </div>
 
-
             <div class="mb-3">
-                <label>Category Id</label>
+                <label asp-for="CategoryId">Category Id</label>
                 <input asp-for="CategoryId" class="form-control" type="number" />
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label>Buying Price</label>
+                <label asp-for="BuyingPrice">Buying Price</label>
                 <input asp-for="BuyingPrice" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="BuyingPrice" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label>Sales Price</label>
+                <label asp-for="SalesPrice">Sales Price</label>
                 <input asp-for="SalesPrice" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="SalesPrice" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label>Stock Quantity</label>
+                <label asp-for="StockQuantity">Stock Quantity</label>
                 <input asp-for="StockQuantity" class="form-control" type="number" />
+                <span asp-validation-for="StockQuantity" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label>Critic Stock Quantity</label>
+                <label asp-for="CriticStockQuantity">Critic Stock Quantity</label>
                 <input asp-for="CriticStockQuantity" class="form-control" type="number" />
+                <span asp-validation-for="CriticStockQuantity" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label>Description</label>
+                <label asp-for="Description">Description</label>
                 <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
             </div>
 
             <button type="submit" class="btn btn-success">Save</button>
@@ -48,3 +56,7 @@
         </form>
     </div>
 </div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

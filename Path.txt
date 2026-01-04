@@ -10,14 +10,16 @@ Gün-1
 
 Gün-2 
 + 1 - Generic Repository Pattern C# Example
-+2 - ProductRepository sınıfı yaz. İçine GetAll, GetById, Add, Update, Delete metodlarını koy.
-++ 3 - ASP.NET Core MVC Controller Dependency Injection
-+4 - ProductController, verileri tablo olarak çek, create ekle. Validasyonsuz 
++ 2 - ProductRepository sınıfı yaz. İçine GetAll, GetById, Add, Update, Delete metodlarını koy.
++ 3 - ASP.NET Core MVC Controller Dependency Injection
++ 4 - ProductController, verileri tablo olarak çek, create ekle. Validasyonsuz 
++ 5 - 2 bira (:
+
 
 Gün-3
-1 - FluentValidation ASP.NET Core Setup.
-2 - ProductValidator classı
-3 - FluentValidation Custom Logic RuleFor Must ( satış > alış olmalı)
++ 1 - FluentValidation ASP.NET Core Setup.
++ 2 - ProductValidator classı
++ 3 - FluentValidation Custom Logic RuleFor Must ( satış > alış olmalı)
 4 - FluentValidation Database Check
 5 - Validator içine Repository'yi inject et. Girilen SKU veritabanında var mı kontrol eden kuralı yaz
 

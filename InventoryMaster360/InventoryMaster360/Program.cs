@@ -1,9 +1,15 @@
 using FluentValidation;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using InventoryMaster360.Data;
+using InventoryMaster360.Models;
 using InventoryMaster360.Repositories;
 using Microsoft.AspNetCore.Components.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<ProductValidator>();
+
 builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 // Add services to the container.

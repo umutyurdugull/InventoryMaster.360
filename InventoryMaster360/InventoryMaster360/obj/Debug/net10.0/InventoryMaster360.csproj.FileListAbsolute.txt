@@ -234,3 +234,5 @@ C:\Users\PC\Desktop\InventoryMaster.360\InventoryMaster360\InventoryMaster360\ob
 C:\Users\PC\Desktop\InventoryMaster.360\InventoryMaster360\InventoryMaster360\obj\Debug\net10.0\InventoryMaster360.pdb
 C:\Users\PC\Desktop\InventoryMaster.360\InventoryMaster360\InventoryMaster360\obj\Debug\net10.0\InventoryMaster360.genruntimeconfig.cache
 C:\Users\PC\Desktop\InventoryMaster.360\InventoryMaster360\InventoryMaster360\obj\Debug\net10.0\ref\InventoryMaster360.dll
+C:\Users\PC\Desktop\InventoryMaster.360\InventoryMaster360\InventoryMaster360\bin\Debug\net10.0\FluentValidation.AspNetCore.dll
+C:\Users\PC\Desktop\InventoryMaster.360\InventoryMaster360\InventoryMaster360\obj\Debug\net10.0\InventoryMaster360.MvcApplicationPartsAssemblyInfo.cs

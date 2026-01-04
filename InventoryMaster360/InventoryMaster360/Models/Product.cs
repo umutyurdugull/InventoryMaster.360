@@ -38,9 +38,14 @@ namespace InventoryMaster360.Models
 
             RuleFor(x => x.SalesPrice)
                 .GreaterThan(0).WithMessage("Sales price must be greater than 0.")
-                .GreaterThan(x => x.BuyingPrice).WithMessage("Sales price cannot be lower than the buying price.");
+                .GreaterThan(x => x.BuyingPrice).WithMessage("Sales price cannot be lower or equal than the buying price.");
 
+            RuleFor(x=> x.CriticStockQuantity)
+                .GreaterThan(0).WithMessage("Critic stock quantity must be greater than 0")
+                .LessThan(x=> x.StockQuantity).WithMessage("Critic stock quantity must be less than stock quantity");
 
+            RuleFor(x=>x.CategoryId)
+                .NotNull().WithMessage("Category ID cannot be null or empty");
             
         }
 }
