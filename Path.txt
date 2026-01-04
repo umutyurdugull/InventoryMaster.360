@@ -1,0 +1,38 @@
+
+SKU = Stok Kodu
+
+Gün-1
+1 - ASP.NET Core MVC N-Tier Architecture Folder Structure
+2 - EF Core Code First Connection String appsettings.json.
+3 - Product ve Category classlarını yaz. İlişkilerini (Product içinde CategoryId ve Category nesnesi) tanımla.
+4 - Veri tabanı bağlantısını kur.
+
+
+Gün-2 
+1 - Generic Repository Pattern C# Example
+2 - ProductRepository sınıfı yaz. İçine GetAll, GetById, Add, Update, Delete metodlarını koy.
+3 - ASP.NET Core MVC Controller Dependency Injection
+4 - ProductController, verileri tablo olarak çek, create ekle. Validasyonsuz 
+
+Gün-3
+1 - FluentValidation ASP.NET Core Setup.
+2 - ProductValidator classı
+3 - FluentValidation Custom Logic RuleFor Must ( satış > alış olmalı)
+4 - FluentValidation Database Check
+5 - Validator içine Repository'yi inject et. Girilen SKU veritabanında var mı kontrol eden kuralı yaz
+
+
+Gün-4
+1 - EF Core Override SaveChanges Auditing (Product eklendiği,güncellendiği zaman otomatik tarih atanacak)
+2 - Product sınıfına CreatedDate, UpdatedDate, IsDeleted alanlarını ekle. AppDbContext içinde SaveChanges metodunu  override et. Kayıt ekleniyorsa CreatedDate'i, güncelleniyorsa UpdatedDate'i DateTime.Now yap.
+3 - EF Core Global Query Filters Soft Delete.
+4 - AppDbContext içinde OnModelCreating metoduna filtre ekle: p => !p.IsDeleted. Artık silinenler (IsDeleted=true) listelenmeyecek.
+5 - ASP.NET Core MVC Image Upload IFormFile.
+6 - Create view'ına <input type="file"> ekle. Form tag'ine enctype="multipart/form-data" eklemeyi unutma. Controller'da resmi al, benzersiz isim ver (Guid), klasöre kaydet, ismini veritabanına yaz.
+
+Gün-5
+1 - LINQ GroupBy Sum Count Tutorial
+2 - DashboardController veya HomeController içine istatistikleri çeken sorguları yaz (Toplam stok, kritik seviye ürünler). Bunları View'da güzel kartlar (Cards) içinde göster.
+3 - Bootstrap 5 Table Design ve Badges.
+4 - Tabloları güzelleştir. Stok azsa satırı kırmızı yap.
+5 - Pushlar, sonrasında 2 bira gömerim (:
