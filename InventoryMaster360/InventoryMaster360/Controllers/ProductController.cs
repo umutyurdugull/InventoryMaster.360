@@ -1,8 +1,8 @@
 ﻿using InventoryMaster360.Models;
 using InventoryMaster360.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using FluentValidation; // Eklendi
-using FluentValidation.Results; // Eklendi
+using FluentValidation;
+using FluentValidation.Results;
 
 namespace InventoryMaster360.Controllers
 {
