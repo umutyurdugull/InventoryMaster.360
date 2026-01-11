@@ -1,0 +1,12 @@
+/****** SSMS’ten SelectTopNRows komutu için betik  ******/
+SELECT TOP (1000) [Id]
+      ,[Name]
+      ,[SKU]
+      ,[CategoryId]
+      ,[Description]
+      ,[BuyingPrice]
+      ,[SalesPrice]
+      ,[StockQuantity]
+      ,[CriticStockQuantity]
+      ,[CreatedTime]
+  FROM [InventoryMasterDb].[dbo].[Products]

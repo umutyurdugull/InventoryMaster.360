@@ -1,0 +1,64 @@
+﻿@model InventoryMaster360.Models.Product
+
+@{
+    ViewData["Title"] = "Ürün Sil";
+}
+
+<div class="container mt-4">
+    <h3>Are you sure about to delete this product?</h3>
+    <div class="alert alert-danger">
+        <strong>Warning:</strong> This cannot be undone!
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            Ürün Detayları
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">
+                    Name
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+
+                <dt class="col-sm-3">
+                    SKU
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.SKU)
+                </dd>
+
+                <dt class="col-sm-3">
+                     Buying Price
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.BuyingPrice) ₺
+                </dd>
+
+                <dt class="col-sm-3">
+                    Sales Price
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.SalesPrice) ₺
+                </dd>
+
+                <dt class="col-sm-3">
+                    Stok 
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.StockQuantity)
+                </dd>
+            </dl>
+
+            <form asp-action="Delete" method="post">
+                <input type="hidden" asp-for="Id" />
+                @Html.AntiForgeryToken()
+
+                <button type="submit" class="btn btn-danger">Yes, Delet</button>
+                <a asp-action="Index" class="btn btn-secondary">No, Go Back </a>
+            </form>
+        </div>
+    </div>
+</div>

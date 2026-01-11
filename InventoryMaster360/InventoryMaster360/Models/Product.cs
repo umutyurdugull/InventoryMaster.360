@@ -38,7 +38,7 @@ namespace InventoryMaster360.Models
             RuleFor(x => x.Name)
                 .NotEmpty().WithMessage("Product name cannot be empty.")
                 .Length(2, 100).WithMessage("Product name must be between 2 and 100 characters.")
-                .MustAsync(IsNameUnique).WithMessage("Bu isimde bir ürün zaten mevcut.");
+                .MustAsync(IsNameUnique).WithMessage("There's already a product with same name.");
 
             RuleFor(x => x.BuyingPrice)
                 .GreaterThan(0).WithMessage("Buying price must be greater than 0.");

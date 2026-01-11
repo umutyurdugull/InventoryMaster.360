@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using System; // Func ve Expression için gerekli
+using System;
 
 namespace InventoryMaster360.Repositories
 {
@@ -28,7 +28,7 @@ namespace InventoryMaster360.Repositories
         {
             return await _dbSet.ToListAsync();
         }
-
+        
         public async Task<T> GetByIdAsync(int id)
         {
             return await _dbSet.FindAsync(id);

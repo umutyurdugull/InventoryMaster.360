@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jc/7guKfUTg=",
+  "dgSpecHash": "UZ9P8tGCyGQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\InventoryMaster360.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\Desktop\\Yazılım\\InventoryMaster.360\\InventoryMaster360\\InventoryMaster360\\InventoryMaster360.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

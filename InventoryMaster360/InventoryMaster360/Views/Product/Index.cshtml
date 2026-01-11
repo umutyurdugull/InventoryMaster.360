@@ -1,9 +1,11 @@
 ﻿@model IEnumerable<InventoryMaster360.Models.Product>
 <div class="mb-3">
     <a asp-action="Create" asp-controller="Product" class="btn btn-primary">
-        + Yeni Ürün Ekle
+        + Add New Product
     </a>
 </div>
+
+
 @if (Model != null && Model.Any())
 {
     <table class="table table-bordered">
@@ -11,14 +13,12 @@
             <tr>
                 <th>Name</th>
                 <th>SKU</th>
-                <th>CategoryId</th>
                 <th>Description</th>
                 <th>BuyingPrice</th>
                 <th>SalesPrice</th>
                 <th>StockQuantity</th>
                 <th>CriticStockQuantity</th>
-                <th>Category</th>
-                <th>Stock</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -27,16 +27,14 @@
                 <tr>
                     <td>@item.Name</td>
                     <td>@item.SKU</td>
-                    <td>@item.CategoryId</td>
                     <td>@item.Description</td>
-                    <td>@item.BuyingPrice</td>
-                    <td>@item.SalesPrice</td>
+                    <td>@item.BuyingPrice ₺</td>
+                    <td>@item.SalesPrice ₺</td>
                     <td>@item.StockQuantity</td>
                     <td>@item.CriticStockQuantity</td>
-
-                    <td>@item.CategoryId</td>
-
-                    <td>@item.StockQuantity</td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
                 </tr>
             }
         </tbody>
